@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Basketball Training Camp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="signin.html">Sign In</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="signin">
+            <div class="welcome-back">
+                <h1>SIGN IN</h1>
+                <p> Welcome back to Basketball Training Camp! <br>
+                    We are thrilled to have you return! Please sign in to <br>
+                    access your account and manage your registration, <br>
+                    camp details, and other features. </p>
+            </div>
+            <div class="form-container">
+                <h2>Create an Account</h2>
+                <hr>
+                <form action="#" method="post">
+                    <label for="full-name">Full Name</label>
+                    <div class="name-fields">
+                        <input type="text" id="first-name" name="first_name" placeholder="First Name">
+                        <input type="text" id="middle-name" name="middle_name" placeholder="Middle Name">
+                        <input type="text" id="last-name" name="last_name" placeholder="Last Name">
+                    </div>
+        
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="ex: myname@example.com">
+        
+                    <label for="birth-date">Birth Date</label>
+                    <div class="birth-date">
+                        <select name="month" id="month">
+                            <option value="">Please select a month</option>
+                            <option value="">January</option> <!-- DAGDAGAN MO NALANG -->
+                        </select>
+                        <select name="day" id="day">
+                            <option value="">Please select a day</option>
+                            <option value="">1</option> <!-- DAGDAGAN MO NALANG -->
+                        </select>
+                        <select name="year" id="year">
+                            <option value="">Please select a year</option>
+                            <option value="">2000</option> <!-- DAGDAGAN MO NALANG -->
+                        </select>
+                    </div>
+        
+                    <label for="username">Preferred Username</label>
+                    <input type="text" id="username" name="username">
+        
+                    <label>Keep me informed</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="informed" value="yes"> Yes</label>
+                        <label><input type="radio" name="informed" value="no"> No</label>
+                    </div>
+        
+                    <label for="avatar">Upload Avatar</label>
+                    <input type="file" id="avatar" name="avatar">
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <ul class="social-icons">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
